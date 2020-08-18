@@ -3,14 +3,13 @@ html {
 }
 
 body {
-    background-color: rgb(3, 10, 2);
+    background-color: #130f0d;
     color: white;
 }
 
 .boards {
     display: flex;
     justify-content: center;
-
     margin-top: 32px;
 }
 
@@ -25,19 +24,19 @@ body {
 .board h3 {
     padding: 16px;
     margin: 0;
-    color: #FD951FCC;
+    color: #FD951Fcc;
 }
 
 .dropzone {
     padding: 16px;
     min-width: 282px;
-    max-height: 200px;
+    min-height: 200px;
 }
 
 .card {
     background-color: #1A1A1C;
     padding: 16px;
-    box-shadow: 0 2px 2px -1px #FD951FCC;
+    box-shadow: 0 2px 2px -1px #FD951Fcc;
     width: 250px;
     margin: 25px 0;
     border-radius: 4px;
@@ -54,11 +53,11 @@ body {
 }
 
 .status.green {
-    background: #23D2AC;
+    background: #23d2ac;
 }
 
 .status.blue {
-    background: #33ADFF;
+    background: #33adff;
 }
 
 .status.red {
@@ -69,8 +68,7 @@ body {
     background-color: #FD951F08;
 }
 
-.card,
-.dropzone {
+.card, .dropzone {
     transition: 400ms;
 }
 
@@ -80,5 +78,5 @@ body {
 }
 
 .over {
-    background-color: #4CD13711;
+    background-color: #4cd13711;
 }
